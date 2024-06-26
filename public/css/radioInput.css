@@ -1,0 +1,19 @@
+.input-hidden {
+    position: absolute;
+    left: -99999;
+    visibility: hidden;
+}
+
+input[type=radio]:checked+label>img {
+    border: 5px solid #435ebe;
+    border-radius: 10px;
+}
+
+/* Stuff after this is only to make things more pretty */
+input[type=radio]+label>img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+}
+

@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior:smooth;
+
+}
+
+
+#canvas{
+    position: fixed;
+    top: 2px;
+    right: 2px;
+    transform: rotate(-72deg);
+/*     transform: rotate(-90deg); */
+}
+.topnav{
+    background-color: transparent;
+    /* -webkit-transition : all 0.4s ease;
+    transition: all 0.4s ease; */
+}
+.topnav .change_color{
+ background-color: black;   
+}
+
+
+
